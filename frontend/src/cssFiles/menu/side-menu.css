@@ -1,0 +1,41 @@
+.sideMenu-wrapper{
+    background-color: #FF6D60;
+    color: white;
+}
+
+.sideMenu-wrapper button{
+    font-size: 2.5rem;
+    position: relative;
+    margin: 2rem 2rem 0 80%;
+
+    border: none;
+    background-color: #FF6D60;
+    color: white;
+}
+
+.sideMenu-wrapper button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sideMenu-container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideMenu-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin: auto 0;
+}
+
+.sideMenu-list li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

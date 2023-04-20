@@ -1,0 +1,45 @@
+h1{
+    font-size: 5.1rem;
+  }
+  
+  h2{
+    font-size: 1.7rem;
+  }
+  
+  p{
+    font-size: 1.4rem;
+  }
+  
+  button{
+    font-size: 1.3rem;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 1000px) {
+    h1{
+      font-size: 4.5rem;
+    }
+    
+    h2{
+      font-size: 1.4rem;
+    }
+    
+    p{
+      font-size: 1.1rem;
+    }
+    
+    button{
+      font-size: 1rem;
+    }
+  
+    a{
+      text-decoration: none;
+      color: white;
+      font-size: 1.1rem;
+    }
+}

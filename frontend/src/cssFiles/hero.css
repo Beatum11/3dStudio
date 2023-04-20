@@ -1,0 +1,29 @@
+.hero-container{
+    background-color: #F7D060;
+    min-height: 100vh;
+    padding: 0 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-text-container{
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    z-index: 1;
+}
+
+.hero-text-container h1{
+    padding-top: 2rem;
+}
+
+.hero-text-container button{
+    padding: 0.5rem 0.5rem;
+}
+
+.hero-container img{
+    height: 90vh;
+}

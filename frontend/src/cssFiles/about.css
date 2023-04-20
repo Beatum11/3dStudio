@@ -1,0 +1,12 @@
+.about-wrapper{
+    background-color: #98D8AA;
+}
+
+/* CONTAINER WITH LIST OF ADVANTAGES */
+
+.about-advantages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3rem;
+}

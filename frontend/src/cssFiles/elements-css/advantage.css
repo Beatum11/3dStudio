@@ -1,0 +1,21 @@
+.advantage-container{
+
+    border: 5px solid #FF6D60;
+    border-radius: 1.8rem;
+
+    max-width: 24rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 3rem;
+
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+
+    list-style: none;
+}
+
+.advantage-container p{
+    font-size: 1.25rem;
+}

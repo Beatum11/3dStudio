@@ -1,0 +1,11 @@
+.process-wrapper{
+    background-color: #F7D060;
+}
+
+.process-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}

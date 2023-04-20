@@ -1,0 +1,39 @@
+.footer-container{
+    height: 15vh;
+    background-color: #FF6D60;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10rem;
+    margin: 0 auto;
+
+    list-style: none;
+
+    padding: 0 2rem;
+}
+
+.footer-list p{
+    font-size: 1.2rem;
+}
+
+.footer-list p:hover{
+    cursor: pointer;
+    color: #98D8AA;
+}
+
+@media (max-width: 1000px) {
+    .footer-list p{
+        font-size: 1rem;
+    }
+
+    .footer-list{
+        gap: 1rem;
+    }
+}
